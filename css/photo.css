@@ -1,0 +1,59 @@
+.photo-container{
+  width: 80%;
+  max-width: 1200px;
+  margin: auto;
+display: grid;
+grid-template-columns: repeat(5, 1fr);
+grid-template-rows: repeat(3, 200px);
+gap: 10px;
+margin-top: 50px;
+}
+
+.card{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+.side{
+  width: 100%;
+  height: 100%;
+}
+
+.side > img{
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.card:nth-child(3){
+grid-area: 2 / 1 / 4 / 2;
+}
+
+.card:nth-child(4){
+grid-area: 1 / 2 / 2 / 4;
+}
+
+.card:nth-child(7){
+grid-area: 2 / 4/ 4 / 6;
+}
+
+.img4756{
+  object-position: 50% 60%;
+}
+
+.img7980{
+  object-position: 50% 60%;
+}
+
+.img7674{
+  object-position: 50% 25%;
+}
+
+.img3905{
+  object-position: 50% 50%;
+}
+
+.img4961{
+  object-position: 50% 30%;
+}
